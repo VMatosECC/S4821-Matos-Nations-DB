@@ -5,6 +5,7 @@
 #include <string>
 #include <vector>
 #include <set>
+#include <map>
 
 using namespace std;
 //--------------------------------------------------------------
@@ -21,9 +22,9 @@ public:
 
     void print() {
         cout << " Country:  " << country << endl
-             << " Capital:  " << capital << endl
-             << " Currency: " << currency << endl
-             << " Language: " << language << endl << endl;
+<< " Capital:  " << capital << endl
+<< " Currency: " << currency << endl
+<< " Language: " << language << endl << endl;
 
     }
 
@@ -100,6 +101,7 @@ void experiment03(vector<Nation> db) {
     //Create a Map to index capital city
 
     //Test retrieval using country name -or- capital city
+
     //Create a menu - Ask user to provide country / capital
     //Search - display results
 
